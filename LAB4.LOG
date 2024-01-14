@@ -1,0 +1,409 @@
+Turbo Debugger Log
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:00038ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 48AD   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 489D   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0003   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:000533C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 48AD   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0005   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 0000   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0007   
+CPU 80486
+c=0
+z=1
+s=0
+o=0
+p=1
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000AFEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 000F   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 000A   
+CPU 80486
+c=0
+z=1
+s=0
+o=0
+p=1
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000CF6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 0010   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 000C   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=1
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 0200   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0010   
+CPU 80486
+c=1
+z=1
+s=0
+o=1
+p=0
+a=1
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:00142A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 2006   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0014   
+CPU 80486
+c=1
+z=1
+s=0
+o=1
+p=0
+a=1
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 2004   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0018   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001AA30400         mov X, AX; резу
+  cs:001D B8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 0004   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 001A   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+CPU 80486
+#lab4#start                                  
+  cs:0000 B8AD48         Start: mov AX, Data
+  cs:0003 8ED8           mov DS, AX ;сег�
+  cs:0005 33C0           xor AX, AX ;Очи�
+  cs:0007 A00100         mov AL, B          
+  cs:000A FEC0           inc AL ; B + 1     
+  cs:000C F6260000       mul A ; A *(B + 1) 
+  cs:0010 F6360200       div C ; (A * (B + 1
+  cs:0014 2A060300       sub AL, D; (A * (B 
+  cs:0018 B400           mov AH, 0; очис
+  cs:001A A30400         mov X, AX; резу
+  cs:001DB8004C         mov AX, 4C00h ;За
+  cs:0020 CD21           int 21h ;с пом�
+CPU 80486
+  ax 0004   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 001D   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+CPU 80486
+  cs:0020CD21           int 21h ;с пом�
+  cs:0022 0000           add    [bx+si],al   
+  cs:0024 0000           add    [bx+si],al   
+  cs:0026 0000           add    [bx+si],al   
+  cs:0028 0000           add    [bx+si],al   
+  cs:002A 0000           add    [bx+si],al   
+  cs:002C 0000           add    [bx+si],al   
+  cs:002E 0000           add    [bx+si],al   
+  cs:0030 FB             sti                 
+  cs:0031 52             push   dx           
+  cs:0032 1003           adc    [bp+di],al   
+  cs:0034 250000         and    ax,0000      
+  cs:0037 0008           add    [bx+si],cl   
+CPU 80486
+  ax 4C00   
+  bx 0000   
+  cx 0000   
+  dx 0000   
+  si 0000   
+  di 0000   
+  bp 0000   
+  sp 0000   
+  ds 48AD   
+  es 489D   
+  ss 48AC   
+  cs 48BE   
+  ip 0020   
+CPU 80486
+c=0
+z=0
+s=0
+o=0
+p=0
+a=0
+i=1
+d=0
+Terminated, exit code 0
