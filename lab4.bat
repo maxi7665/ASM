@@ -1,1 +1,1 @@
-run lab4
+run lab4 \"TASM\td lab4\"

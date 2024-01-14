@@ -1,0 +1,1 @@
+run lab7_1 lab7_1

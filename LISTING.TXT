@@ -1,0 +1,38 @@
+Turbo Assembler  Version 3.1  Copyright (c) 1988, 1992 Borland International
+
+Assembling file:   source\lab7.ASM  to  lab7.OBJ
+**Error** source\lab7.ASM(5) Need expression
+**Error** source\lab7.ASM(6) Illegal instruction
+**Error** source\lab7.ASM(7) CS unreachable from current segment
+**Error** source\lab7.ASM(8) Too few operands to instruction
+*Warning* source\lab7.ASM(8) Argument needs type override
+**Error** source\lab7.ASM(9) Need address or register
+**Error** source\lab7.ASM(11) Too few operands to instruction
+*Warning* source\lab7.ASM(11) Argument needs type override
+**Error** source\lab7.ASM(12) Too few operands to instruction
+**Error** source\lab7.ASM(13) Too few operands to instruction
+*Warning* source\lab7.ASM(13) Argument needs type override
+**Error** source\lab7.ASM(15) CS unreachable from current segment
+**Error** source\lab7.ASM(16) Too few operands to instruction
+*Warning* source\lab7.ASM(16) Argument needs type override
+**Error** source\lab7.ASM(18) Unknown character
+**Error** source\lab7.ASM(21) Unknown character
+*Warning* source\lab7.ASM(26) Reserved word used as symbol: WHILE
+**Error** source\lab7.ASM(26) CS unreachable from current segment
+**Error** source\lab7.ASM(27) Too few operands to instruction
+*Warning* source\lab7.ASM(27) Argument needs type override
+**Error** source\lab7.ASM(30) Need address or register
+**Error** source\lab7.ASM(32) Too few operands to instruction
+*Warning* source\lab7.ASM(32) Argument needs type override
+**Error** source\lab7.ASM(35) Too few operands to instruction
+*Warning* source\lab7.ASM(35) Argument needs type override
+**Error** source\lab7.ASM(38) CS unreachable from current segment
+**Error** source\lab7.ASM(39) Too few operands to instruction
+*Warning* source\lab7.ASM(39) Argument needs type override
+**Error** source\lab7.ASM(40) Need expression
+*Warning* source\lab7.ASM(40) Argument needs type override
+Error messages:    20
+Warning messages:  10
+Passes:            1
+Remaining memory:  468k
+

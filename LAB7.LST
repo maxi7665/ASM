@@ -1,0 +1,58 @@
+Turbo Assembler	 Version 3.1	    01/14/24 22:11:53	    Page 1
+SOURCE\lab7.ASM
+
+
+
+      1	0000			     .MODEL SMALL
+      2	0000			     .STACK 256
+      3	0000			     .DATA
+      4	0000  4F 75 72 20 4E 61	74+	     WORKTEXT DB 'Our Native Town with Happy People', 13, 10, '$'
+      5	      69 76 65 20 54 6F	77+
+      6	      6E 20 77 69 74 68	20+
+      7	      48 61 70 70 79 20	50+
+      8	      65 6F 70 6C 65 0D	0A+
+      9	      24
+     10	      =0021			     strlen equ	($ - WORKTEXT) - 3
+     11	0024			     .CODE
+     12
+     13	0000			     Start:
+     14	0000  B8 0000s			     MOV AX , @DATA ; загрузка адреса сегмента данных
+     15	0003  8E D8			     MOV DS , AX
+     16
+     17	0005  33 C0			     XOR AX , AX
+     18	0007  BB 0000r			     LEA BX , WORKTEXT
+     19	000A  B9 0021			     MOV CX , strlen
+     20
+     21	000D				     CYCLE:
+     22	000D  8A 27				     MOV AH , [BX] ; загрузка кода текущего	символа	в AH
+     23
+     24	000F  80 FC 61				     CMP AH , 61h ; сравнение с ASCII	'a'
+     25	0012  72 08				     JB	NEXT ; меньше - следующая итерация
+     26
+     27	0014  80 FC 7A				     CMP AH , 7Ah ; сравнение с ASCII	'z'
+     28	0017  77 03				     JA	NEXT ; больше - следующая итерация
+     29
+     30	0019  E8 000F				     CALL ToUpperCase ;	подошло под оба условия -		    +
+     31				     преобразование к верхнему регистру
+     32
+     33	001C				     NEXT:
+     34	001C  43				     INC BX ; увеличение позиции символа
+     35	001D  E2 EE				     LOOP CYCLE; cx --;	если cx == 0 - окончание цикла
+     36
+     37	001F  BA 0000r				     LEA DX, WORKTEXT
+     38
+     39	0022  B4 09				     MOV AH , 09h ; вывод строки на консоль
+     40	0024  CD 21				     INT 21h
+     41
+     42	0026  B8 4C00				     MOV AX, 4C00h ; завершение программы
+     43	0029  CD 21				     INT 21h
+     44
+     45	002B				     ToUpperCase PROC NEAR
+     46	002B  80 E4 DF					     AND AH , 0DFh ; обнуление	3-го бита	кода	    +
+     47				     символа
+     48	002E  88 27					     MOV [ BX ]	, AH ; обновление символа в строке
+     49	0030  C3				     RET
+     50	0031				     ToUpperCase ENDP
+     51
+     52				     END Start
+
